@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dashboard_App</title>	
+<!-- include angularJs -->
+ <script src="../bower_components/angular/angular.min.js"></script>
+ <!-- include jQuery -->
+ <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+ <!--  include ui-router -->
+ <script src="../bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+ <!-- include bootstrape -->
+ <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+ <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+ <!-- include the user customized file css files -->
+
+ <!-- include the user customized file js files -->
+ <script type="text/javascript" src="scripts/app.js"></script>
+ <script type="text/javascript" src="scripts/controllers/work.js"></script>
+ <script type="text/javascript" src="scripts/controllers/overview.js"></script>
+ <script type="text/javascript" src="scripts/controllers/producer.js"></script>
+ <script type="text/javascript" src="scripts/controllers/contact.js"></script>
+ <link rel="stylesheet" type="text/css" href="assets/styles/login.css">
+ <link rel="stylesheet" type="text/css" href="assets/styles/work.css">
+ <link rel="stylesheet" type="text/css" href="assets/styles/producer.css">
+ <link rel="stylesheet" type="text/css" href="assets/styles/overview.css">
+ <link rel="stylesheet" type="text/css" href="assets/styles/contact.css">
+ <script type="text/javascript" src="scripts/controllers/login.js"></script>
+<script type="text/javascript" src="scripts/services/authenticate.js"></script>
+ 
+</head>
+<body ng-app="dashApp">
+    <div id="main">
+	<div ui-view></div>
+	</div>
+</body>
+</html>
+
+

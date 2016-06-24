@@ -1,0 +1,40 @@
+#background-img{
+    background-image: url("../images/src/app/background.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#login_ul{
+	list-style:none;
+	display:block;
+	text-align: center;
+	margin-bottom: 60%;
+	padding-top: 40%;
+}
+.login_li{
+	margin-top: 20px;
+}
+
+#login{
+	color:white;
+	font-size: 30px;
+	padding:15px;
+	border-bottom: 1px solid white;
+}
+
+.login_input{
+	border-radius: 5px;
+	width:100%;
+	padding:5px;
+}
+
+.btn-success{
+	width:100%;
+	border-radius: 5px;
+	border:none;
+	opacity:0.80;
+}
+
+#col-sm-4{
+	margin-top: 10%;
+}
